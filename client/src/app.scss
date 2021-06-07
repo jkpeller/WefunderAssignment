@@ -1,0 +1,13 @@
+@import 'carbon-components/scss/globals/scss/vendor/@carbon/type/scss/font-family.scss';
+@import 'carbon-components/scss/globals/scss/vendor/@carbon/layout/scss/breakpoint.scss';
+@import 'carbon-components/scss/globals/scss/typography.scss';
+@import 'carbon-components/scss/globals/scss/vars.scss';
+
+@import './components/navbar.scss';
+@import './content/UploadPage/upload-page.scss';
+@import './content/SlideShow/slide-show.scss';
+// @import './content/RepoPage/repo-page.scss';
+
+.bx--file__selected-file {
+    width: 288px;
+  }
